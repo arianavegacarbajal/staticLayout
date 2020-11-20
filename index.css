@@ -1,0 +1,317 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.top-part{
+    background-image:url("../staticLayout/assets/Homepage.jpg");
+    background-size: contain;
+    height: 565px;
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+
+.ribbon {
+    width: 2000px;
+    height: 152px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,72,111,1) 65%, rgba(0,212,255,1) 100%);
+    position: relative;
+    top: -14px;
+}
+
+.middle-middle{
+    color: rgb(37, 158, 134);
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: -365px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#middle-top{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: -200px;
+    font-size: 25px;
+}
+
+.content{
+    background-image: url("../staticLayout/assets/Logos.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 553px;
+    width: 357px;
+    top: -125px;
+    left: 135.3px;
+}
+
+.logo {
+    background-image: url("../staticLayout/assets/HuluLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 530px;
+    width: 265px;
+    top: -1130px;
+    left: 757px;
+
+}
+
+.top-text {
+    color: rgb(37, 158, 134);
+    text-align: center;
+    position: relative;
+    top: -540px;
+    left: -100px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-text {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -430px;
+    left: -80px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lower-text {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -450px;
+    left: -85px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.baby-disclaimer {
+    color: lightgrey;
+    text-align: center;
+    position: relative;
+    top: -370px;
+    left: -85px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cont-bottom {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -450px;
+    left: -100px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    background-color:transparent;
+    border-style: hidden;
+    color: white;
+    position: relative;
+    top: -1800px;
+    left:1670px;
+    width: 65px;
+    height: 70px;
+}
+
+#trial {
+    background-color: white;
+    color: black;
+    position: relative;
+    top: -1490px;
+    left: 767px;
+    height: 50px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+#bundel {
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: -1280px;
+    left: 1300px;
+    border-radius: 3px;
+}
+
+
+
+
+.link1 {
+    top: -1265px;
+    left: 542px;
+    color: whitesmoke;
+    position: relative;
+}
+
+.link2 {
+    position: relative;
+    top: -1280px;
+    left: 1580px;
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-square {
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    top: -1090px;
+    left: 0px;
+}
+
+.bobsburger {
+    background-image: url("../staticLayout/assets/bobsburger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+    width: 290px;
+    top: -2555px;
+    left: 275px;
+    opacity: 0.7;
+}
+
+.palmsprings {
+    background-image: url(../staticLayout/assets/palmsprings.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+    width: 290px;
+    top: -3105px;
+    left: 590px;
+    opacity: 0.7;
+}
+
+.littlefires {
+    background-image: url(../staticLayout/assets/littlefires.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+    width: 290px;
+    top: -3655px;
+    left: 905px;
+    opacity: 0.7;
+}
+
+.watchmen {
+    background-image: url(../staticLayout/assets/watchmen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 550px;
+    width: 290px;
+    top: -4210px;
+    left: 1225px;
+    opacity: 0.7;
+}
+
+.plans {
+    color: rgb(37, 158, 134);
+    text-align: center;
+    position: relative;
+    top: -1190px;
+    left: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.library {
+    text-align: center;
+    position: relative;
+    top: -1230px;
+    left: 15px;
+    font-size: 75px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.and-more {
+    text-align: center;
+    position: relative;
+    top: -1250px;
+    left: 35px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.also-more {
+    text-align: center;
+    position: relative;
+    top: -1265px;
+    left: 40px;
+    color: white;
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add-ons {
+    text-align: center;
+    position: relative;
+    top: -1170px;
+    left: 460px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.past {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1210px;
+    left: -523px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tvshows {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1260px;
+    left: -523px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.new {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1360px;
+    left: -245px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
