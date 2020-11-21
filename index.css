@@ -17,7 +17,7 @@ body{
     width: 2000px;
     height: 152px;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,72,111,1) 65%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(9, 22, 34) 0%, rgba(14, 51, 61) 65%, rgba(13, 65, 80) 100%);
     position: relative;
     top: -14px;
 }
@@ -155,79 +155,25 @@ button {
     border-radius: 3px;
 }
 
-
-
-
 .link1 {
+    text-decoration: none;
     top: -1265px;
     left: 542px;
     color: whitesmoke;
     position: relative;
 }
 
-.link2 {
+#link2 {
     position: relative;
     top: -1280px;
     left: 1580px;
-    color: orange;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-.bottom-square {
-    height: 100vh;
-    background-color: white;
-    position: relative;
-    top: -1090px;
-    left: 0px;
-}
-
-.bobsburger {
-    background-image: url("../staticLayout/assets/bobsburger.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 550px;
-    width: 290px;
-    top: -2555px;
-    left: 275px;
-    opacity: 0.7;
-}
-
-.palmsprings {
-    background-image: url(../staticLayout/assets/palmsprings.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 550px;
-    width: 290px;
-    top: -3105px;
-    left: 590px;
-    opacity: 0.7;
-}
-
-.littlefires {
-    background-image: url(../staticLayout/assets/littlefires.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 550px;
-    width: 290px;
-    top: -3655px;
-    left: 905px;
-    opacity: 0.7;
-}
-
-.watchmen {
-    background-image: url(../staticLayout/assets/watchmen.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    height: 550px;
-    width: 290px;
-    top: -4210px;
-    left: 1225px;
-    opacity: 0.7;
+.links {
+    color: white;
 }
 
 .plans {
@@ -265,21 +211,10 @@ button {
 .also-more {
     text-align: center;
     position: relative;
-    top: -1265px;
-    left: 40px;
+    top: -1270px;
+    left: 35px;
     color: white;
     font-size: 27px;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-}
-
-.add-ons {
-    text-align: center;
-    position: relative;
-    top: -1170px;
-    left: 460px;
-    color: white;
-    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -288,8 +223,9 @@ button {
     text-align: center;
     position: relative;
     color: white;
-    top: -1210px;
-    left: -523px;
+    top: -1220px;
+    left: -503px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -299,8 +235,8 @@ button {
     position: relative;
     color: white;
     top: -1260px;
-    left: -523px;
-    font-size: 30px;
+    left: -538px;
+    font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -309,9 +245,384 @@ button {
     text-align: center;
     position: relative;
     color: white;
-    top: -1360px;
-    left: -245px;
-    font-size: 20px;
+    top: -1345px;
+    left: -226px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.movies {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1386px;
+    left: -241px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.breaking {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1470px;
+    left: 95px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.originals {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1510px;
+    left: 118px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.adds {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1600px;
+    left: 375px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.premiums {
+    text-align: center;
+    position: relative;
+    color: white;
+    top: -1637px;
+    left: 400px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bobsburger {
+    background-image: url("../staticLayout/assets/bobsburger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 560px;
+    width: 300px;
+    top: -1745px;
+    left: 275px;
+    opacity: 0.7;
+}
+
+.palmsprings {
+    background-image: url("../staticLayout/assets/palmsprings.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 560px;
+    width: 300px;
+    top: -2305px;
+    left: 590px;
+    opacity: 0.7;
+}
+
+.littlefires {
+    background-image: url("../staticLayout/assets/littlefires.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 560px;
+    width: 300px;
+    top: -2865px;
+    left: 905px;
+    opacity: 0.7;
+}
+
+.watchmen {
+    background-image: url("../staticLayout/assets/watchmen.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 560px;
+    width: 300px;
+    top: -3450px;
+    left: 1225px;
+    opacity: 0.7;
+}
+
+
+.add-ons {
+    text-align: center;
+    position: relative;
+    top: -3525px;
+    left: 460px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom-square {
+    height: 105vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -3395px;
+    left: 0px;
+}
+
+.plan {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    top: -4280px;
+    left: 275px;
+}
+
+.description {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    top: -4250px;
+    left: 275px;
+}
+
+.cancel {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    top: -4243px;
+    left: 275px;
+}
+
+.hulu {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: -4370px;
+    left: 880px
+}
+
+.freetrial1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    top: -4370px;
+    left: 850px;
+}
+
+.noads {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: -4419px;
+    left: 1060px;
+}
+
+.freetrial2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    top: -4418px;
+    left: 1087px;
+}
+
+.livetv {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    top: -4465px;
+    left: 1297px;
+}
+
+.freetrial3 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+    position: relative;
+    top: -4465px;
+    left: 1333px;
+}
+
+.button2 {
+    font-size: 14px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: -4443px;
+    left: 800px;
+    width: 225px;
+    height: 50px;
+}
+
+.button3 {
+    font-size: 14px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: -4443px;
+    left: 810px;
+    width: 225px;
+    height: 50px;
+}
+
+.button4 {
+    font-size: 14px;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+    top: -4443px;
+    left: 820px;
+    width: 225px;
+    height: 50px;
+}
+
+.price {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    top: -4410px;
+    left: 277px;
+}
+
+.break {
+    position: relative;
+    top: -4425px;
+    color: gray;
+    width: 70%;
+}
+
+.huluprice {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    top: -4430px;
+    left: 807px;
+}
+
+.noadsprice {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    top: -4447px;
+    left: 1107px;
+}
+
+.livetvprice {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    top: -4468px;
+    left: 1335px;
+}
+
+.break2 {
+    position: relative;
+    top: -4460px;
+    color: gray;
+    width: 70%;
+}
+
+.streaming {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    top: -4450px;
+    left: 277px;
+}
+
+.break3 {
+    position: relative;
+    top: -4430px;
+    color: gray;
+    width: 70%;
+}
+
+.newepisodes {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+    top: -4420px;
+    left: 277px;
+}
+
+.checkmarks {
+    position: relative;
+    top: -4600px;
+    left: 600px;
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr;
+    grid-template-rows: 10fr 10fr;
+    grid-column-gap: 235px;
+    grid-row-gap: 80px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-items: flex-end;
+    border-radius: 3px;
+    max-width: 600px;
+    margin: 100px 200px;
+    padding-top: 0px;
+}
+
+.popular {
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background: gray;
+    position: relative;
+    top: -5085px;
+    left: 840px;
+}
+
+#most {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    top: 10px;
+    left: 35px;
+    color: white;
 }
